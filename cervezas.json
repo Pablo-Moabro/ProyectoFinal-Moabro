@@ -1,0 +1,30 @@
+[
+    {
+        "nombre": "Aurora",
+        "estilo": "ipa",
+        "peso": 1,
+        "medida": "L",
+        "precio": 5000
+    },
+    {
+        "nombre": "Dragon",
+        "estilo": "red-ale",
+        "peso": 1,
+        "medida": "L",
+        "precio": 4500
+    },
+    {
+        "nombre": "Lobo",
+        "estilo": "stout",
+        "peso": 1,
+        "medida": "L",
+        "precio": 4200
+    },
+    {
+        "nombre": "Centauro",
+        "estilo": "belgian",
+        "peso": 1,
+        "medida": "L",
+        "precio": 4800
+    }
+]

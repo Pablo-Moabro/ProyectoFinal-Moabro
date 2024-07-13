@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+}
+
+.birra h1{
+    text-align: center;
+    padding: 25px;
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.card__content {
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(lightblue, red, yellow, lightblue);
+  }
+
+  .card__content img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .card__footer {
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .card__footer button{
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #007bff;
+}
+
+.card__footer button:hover{
+    background-color: #0056b3;
+    transition: 300ms;
+}
+
+.btn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 70px;
+}
+
+.btn_comprar{
+    height: 70px;
+    width: 140px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #007bff;
+}
+
+.btn_comprar:hover{
+    background-color: #0056b3;
+    transition: 300ms;
+}
+
+
+#container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 30px;
+   background-color: lightblue;
+   color: black;
+}
+
+#container h2{
+    margin-bottom: 8px;
+}
+
+.ipa{
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    color: black;
+}
+
+.red-ale{
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    color: black;
+}
+
+.stout{
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    color: black;
+}
+
+.belgian{
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    color: black;
+}
+
+.ipa button{
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #ff6b33;
+}
+
+.red-ale button{
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #ff6b33;
+}
+
+.stout button{
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #ff6b33;
+}
+
+.belgian button{
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #ff6b33;
+}
+
+.ipa button:hover{
+    background-color: #ff3333;
+    transition: 300ms;
+}
+
+.red-ale button:hover{
+    background-color: #ff3333;
+    transition: 300ms;
+}
+
+.stout button:hover{
+    background-color: #ff3333;
+    transition: 300ms;
+}
+
+.belgian button:hover{
+    background-color: #ff3333;
+    transition: 300ms;
+}
+
+.btn{
+    background-color: lightblue;
+}
+
+@media screen and (max-width: 1050px) {
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 650px){
+    .cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
